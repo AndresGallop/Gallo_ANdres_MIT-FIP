@@ -60,6 +60,29 @@ a{
 	background-position:center;
 }
 
+
+h2{
+	font-family: 'Domine', serif;
+}
+
+h3{
+	font-family: 'Domine', serif;
+}
+
+h1{
+	font-family: 'Domine', serif;
+}
+
+p{
+	font-family: 'Domine', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.pprotext{
+	font-family: 'Domine', serif;
+font-family: 'Roboto', sans-serif;
+}
+
 .heroImage h3{
 	font-weight:bold;
 	color: white;
@@ -819,3 +842,20 @@ a{
 	background-color: #00A1E4;
 }
 
+.animation {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 8s;
+  margin-left: 200px;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:300px; top:0px;}
+  50%  {background-color:blue; left:300px; top:450px;}
+  75%  {background-color:green; left:0px; top:450px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
